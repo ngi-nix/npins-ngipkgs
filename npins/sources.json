@@ -1,0 +1,29 @@
+{
+  "pins": {
+    "ngipkgs": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "ngi-nix",
+        "repo": "ngipkgs"
+      },
+      "branch": "default-nix-init",
+      "revision": "50484e6e62aa9d18177f63519d299f562f7818b7",
+      "url": "https://github.com/ngi-nix/ngipkgs/archive/50484e6e62aa9d18177f63519d299f562f7818b7.tar.gz",
+      "hash": "1q40b8szg8qyr2adkv745ayvc39p9j1b99xaqfz6vw7nmxi1bp6x"
+    },
+    "nixpkgs": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "nixos",
+        "repo": "nixpkgs"
+      },
+      "branch": "nixos-24.05",
+      "revision": "e4509b3a560c87a8d4cb6f9992b8915abf9e36d8",
+      "url": "https://github.com/nixos/nixpkgs/archive/e4509b3a560c87a8d4cb6f9992b8915abf9e36d8.tar.gz",
+      "hash": "1i18lq7zlzxx6p9d98lv39zm0abb1f0f4bfqs9vljk3iiirbyj1b"
+    }
+  },
+  "version": 2
+}
