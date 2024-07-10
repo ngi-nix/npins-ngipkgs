@@ -1,4 +1,4 @@
-{ config, pkgs, ... }:
+{ config, pkgs, ngipkgs, ... }:
 {
   #unbootable = pkgs.lib.mkForce false;   
   boot.loader.systemd-boot.enable = true;
@@ -11,8 +11,7 @@
   };
 
   environment.systemPackages = with pkgs; [
-    #lcsync
-    libgnunetchat
+    ngipkgs.libgnunetchat
   ];
 
   #services.vula.enable = true;
